@@ -70,12 +70,22 @@ bash ./dist_test.sh ./configs/cfg_DATASET.py
 
 ## Citation
 
-```
+If you find this project useful, please cite our [IEEE Access paper](https://ieeexplore.ieee.org/document/11359636):
 
+```bibtex
+@article{choi2026dual,
+  author={Choi, Bigyeol and Jeon, Sangryul},
+  journal={IEEE Access},
+  title={Dual Visual--Textual Graph Construction for Open-Vocabulary Semantic Segmentation},
+  year={2026},
+  volume={14},
+  pages={23656--23669},
+  doi={10.1109/ACCESS.2026.3656497}
+}
 ```
 
 ## License
-This project is licensed under <a rel="license" href="https://github.com/mc-lan/SmooSeg/blob/master/LICENSE">NTU S-Lab License 1.0</a>. Redistribution and use should follow this license.
+The original DVGT code is released under the [MIT License](LICENSE). Third-party components and files derived from other projects remain subject to their respective copyright notices and license terms.
 
 
 ## Acknowledgement
