@@ -12,7 +12,7 @@
 
 ```
 # git clone this repository
-git clone https://github.com/AnonymousNeurIPS2025/neurips2025-anon.git
+git clone https://github.com/DailyVy/DVGT.git
 cd DVGT
 
 # create new anaconda env
@@ -20,7 +20,7 @@ conda create -n DVGT python=3.10
 conda activate DVGT
 
 # install torch and dependencies
-pip install -r requirements.txt
+pip install -r docker/requirements.txt
 ```
 
 ## SAM
@@ -60,12 +60,12 @@ Please modify some settings in `configs/base_config.py` before running the evalu
 Single-GPU:
 
 ```
-python eval.py --config ./config/cfg_DATASET.py --workdir YOUR_WORK_DIR
+python eval.py --config ./configs/cfg_DATASET.py --workdir YOUR_WORK_DIR
 ```
 
 Multi-GPU:
 ```
-bash ./dist_test.sh ./config/cfg_DATASET.py
+bash ./dist_test.sh ./configs/cfg_DATASET.py
 ```
 
 ## Citation
@@ -82,4 +82,3 @@ This project is licensed under <a rel="license" href="https://github.com/mc-lan/
 This study is supported under the RIE2020 Industry Align- ment Fund – Industry Collaboration Projects (IAF-ICP) Funding Initiative, as well as cash and in-kind contribution from the industry partner(s).
 
 This implementation is based on [OpenCLIP](https://github.com/mlfoundations/open_clip), [ProxyCLIP](https://github.com/mc-lan/ProxyCLIP), [SCESAME](https://github.com/ymgw55/SCESAME) and [PixelCLIP](https://github.com/cvlab-kaist/PixelCLIP/). Thanks for the awesome work.
-
