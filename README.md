@@ -89,6 +89,4 @@ The original DVGT code is released under the [MIT License](LICENSE). Third-party
 
 
 ## Acknowledgement
-This study is supported under the RIE2020 Industry Align- ment Fund – Industry Collaboration Projects (IAF-ICP) Funding Initiative, as well as cash and in-kind contribution from the industry partner(s).
-
 This implementation is based on [OpenCLIP](https://github.com/mlfoundations/open_clip), [ProxyCLIP](https://github.com/mc-lan/ProxyCLIP), [SCESAME](https://github.com/ymgw55/SCESAME) and [PixelCLIP](https://github.com/cvlab-kaist/PixelCLIP/). Thanks for the awesome work.
